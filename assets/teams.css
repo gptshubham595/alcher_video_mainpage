@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.person {
+  /* width: 600px; */
+  /* padding: 70px 0 0 230px; */
+  /* min-height: 200px; */
+  /* margin: auto; */
+  /* position: relative; */
+}
+.person-badge {
+  width: 200px;
+  height: 240px;
+  border-radius: 0 0 100px 100px;
+  overflow: hidden;
+  /* margin-left: 50px; */
+  transform: rotate(0deg); /* To force its own layer */
+  /* position: absolute; */
+  /* top: 0;
+    left: 0; */
+}
+.person-badge:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  border-radius: 50%;
+  z-index: -1;
+
+  margin-left: -100px;
+
+  width: 200px;
+  height: 200px;
+  background: #ddd;
+  background: linear-gradient(to bottom, #eee 0%, #ccc 100%);
+  transition: 500ms;
+}
+
+.person-badge img {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 500ms;
+}
+.person-badge img.peculiar {
+  opacity: 0;
+  transform: translateY(80px);
+}
+
+.person-badge:hover img.normal {
+  opacity: 1;
+  /* transform: translateY(80px); */
+}
+
+.hov:before,
+.hov:after {
+  transition: 500ms;
+}
+.hov:after {
+  opacity: 0;
+}
+.hov:hover:after {
+  opacity: 1;
+}
+.hov .hov2 {
+  opacity: 0;
+  transform: translateY(0px);
+}
+
+.ad .hov1 {
+  opacity: 0;
+  transform: translateY(0px);
+}
+.ad .hov2 {
+  opacity: 1;
+  transform: translateY(0);
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 4000px;
+    overflow-x: hidden;
+    color: white;
+}
+
+.circular-text {
+    position: fixed;
+    top: 35%;
+    left: 0%;
+    color: rgba(255, 255, 255, 0);
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: "Monument Extended";
+    transition: 0.5s ease-out;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+}

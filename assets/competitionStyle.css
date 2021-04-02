@@ -1,0 +1,44 @@
+
+.listevents, .registeredevents{
+    background: #272727;
+}
+
+.eventcard, .registeredevent{
+    
+}
+
+.eventcard{
+    background-color: #272727;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.reelopen:hover{
+    content: url('Reelfilled.png');
+}
+
+.soloopen:hover{
+    content: url('solofilled.png');
+}
+
+.choiropen:hover{
+    content: url('Musicfilled.png');
+}
+.talentopen:hover{
+    content: url('AGTfilled.png');
+}
+.heelsopen:hover{
+    content: url('heelsFilled.png');
+}
+.novaopen:hover{
+    content: url('Vectorfilled.png');
+}
+.dramaopen:hover{
+    content: url('Dramafilled.png');
+}
+.rapopen:hover{
+    content: url('Rapfilled.png');
+}

@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.header {
+    background-image: url('Eventsbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.header-wrapper {
+    height: 100vh;
+    background-image: url('hands.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.page-name {
+    letter-spacing: 0.3em;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    line-height: 2rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.header-bottom {
+    color: white;
+    font-size: 1.2em;
+}
+
+
+
+.header-bottom-arrow img {
+    height: 40px;
+}
+
+.swiper-container {
+    margin: 50px;
+}
+
+
+.swiper-button-prev {
+    background-image: url("left.svg");
+}
+
+.swiper-button-next {
+    background-image: url("right.svg");
+}
+
+.swiper-button-next, .swiper-button-prev{
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}   
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-pagination{
+    margin-bottom: 20px;
+}
+
+.swiper-pagination-bullet{
+    height: 11px;
+    width: 11px;
+    border: 1px solid white;
+    background-color: black;
+}
+.swiper-pagination-bullet-active {
+    background-color: white;
+}
+.center-bg {
+    max-width: 50%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-heading {
+    letter-spacing: 0.3em;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    line-height: 2rem;
+    margin-top: 10rem;
+}
+
+.center-img{
+    max-height: 100%;
+}
+
+.slide-bg {
+    height:500px; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
